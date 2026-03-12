@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communauté | Chess World</title>
+    <link rel="icon" type="image/jpeg" href="../Elements/img/Logo.svg">
+    <link rel="stylesheet" href="projet.css">
+</head>
+
+<body class="community-page">
+
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="index.html" aria-label="Retour à l'accueil">♟ Chess World</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="regles.html">Règles</a></li>
+                <li><a href="champions.html">Champions</a></li>
+                <li><a href="competitions.html">Compétitions</a></li>
+                <li><a href="forum.html">Communauté</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-hero community-hero">
+        <div class="global-badge">Communauté Active 2026</div>
+        <h1>Vidéos, Échanges et Aide</h1>
+        <p>Découvre nos contenus et rejoins-nous sur Chess.com.</p>
+        <div class="community-hero-points">
+            <span>3 vidéos immersives</span>
+            <span>Analyses pratiques</span>
+            <span>Support direct WhatsApp</span>
+        </div>
+    </section>
+
+    <section class="community-videos">
+        <h2>Nos 3 Vidéos</h2>
+        <div class="community-grid">
+            <article class="community-card">
+                <div class="community-tag">Présentation</div>
+                <h3>Présentation des échecs</h3>
+                <p>Vidéo d'introduction aux échecs: origine du jeu, règles principales et intérêt stratégique.</p>
+                <div class="video-embed">
+                    <a class="video-link" href="https://youtu.be/yjGM_lPWLw4?si=j5CMd_jfUaZmFuR3" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="../Elements/img/video1.jpeg"
+                            alt="Aperçu vidéo: Présentation des échecs" loading="lazy">
+                    </a>
+                </div>
+                <p class="video-fallback">
+                    Cliquez sur l'image pour ouvrir la vidéo sur YouTube.
+                </p>
+            </article>
+
+            <article class="community-card">
+                <div class="community-tag">Explication</div>
+                <h3>Conseils & Méthodes</h3>
+                <p>Vidéo explicative: progression Elo, préparation, et erreurs fréquentes à éviter.</p>
+                <div class="video-embed">
+                    <a class="video-link" href="https://youtu.be/b3_p6pb8YcU?si=kqETHtUsseSzONfn" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="../Elements/img/video2.jpeg"
+                            alt="Aperçu vidéo: Conseils et méthodes" loading="lazy">
+                    </a>
+                </div>
+                <p class="video-fallback">
+                    Cliquez sur l'image pour ouvrir la vidéo sur YouTube.
+                </p>
+            </article>
+
+            <article class="community-card">
+                <div class="community-tag">Match</div>
+                <h3>Match Commenté</h3>
+                <p>Analyse d'un match complet avec idées stratégiques et moments clés.</p><br>
+                <div class="video-embed">
+                    <a class="video-link" href="https://youtu.be/KqJbmxx8OkE?si=zGG8p6X7_5SG8L4P" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="../Elements/img/video3.jpeg"
+                            alt="Aperçu vidéo: Match commenté" loading="lazy">
+                    </a>
+                </div>
+                <p class="video-fallback">
+                    Cliquez sur l'image pour ouvrir la vidéo sur YouTube.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="community-topics">
+        <h2>Thèmes de discussion</h2>
+        <p>Choisis ton terrain de jeu et partage tes analyses.</p>
+        <div class="community-grid">
+            <article class="community-card">
+                <div class="community-tag">Débutants</div>
+                <h3>Questions rapides</h3>
+                <p>Clarifie les règles, notations et bases tactiques.</p>
+                <ul>
+                    <li>Règles spéciales</li>
+                    <li>Notations des coups</li>
+                    <li>Conseils de départ</li>
+                </ul>
+            </article>
+            <article class="community-card">
+                <div class="community-tag">Stratégie</div>
+                <h3>Ouvertures & Plans</h3>
+                <p>Analyse des plans d’ouverture et de milieu de jeu.</p>
+                <ul>
+                    <li>Plans d'ouverture</li>
+                    <li>Structure de pions</li>
+                    <li>Attaque du roi</li>
+                </ul>
+            </article>
+            <article class="community-card">
+                <div class="community-tag">Défis</div>
+                <h3>Débriefs de parties</h3>
+                <p>Publie une position critique et reçois des idées.</p>
+                <ul>
+                    <li>Analyse collective</li>
+                    <li>Moments clés</li>
+                    <li>Plans alternatifs</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section class="community-comments">
+        <h2>Espace Commentaires</h2>
+        <form class="comment-form" action="#" method="post">
+            <label for="name">Nom</label>
+            <input id="name" name="name" type="text" placeholder="Votre nom" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="exemple@email.com">
+
+            <label for="topic">Sujet</label>
+            <input id="topic" name="topic" type="text" placeholder="Ouverture, finale, tactique...">
+
+            <label for="level">Niveau</label>
+            <select id="level" name="level">
+                <option value="debutant">Débutant (0 - 1199)</option>
+                <option value="intermediaire">Intermédiaire (1200 - 1799)</option>
+                <option value="avance">Avancé (1800+)</option>
+            </select>
+
+            <label for="comment">Commentaire</label>
+            <textarea id="comment" name="comment" rows="5" placeholder="Votre commentaire sur les vidéos..."
+                required></textarea>
+
+            <button type="submit" class="btn-primary">Publier</button>
+            <p class="form-note">En postant, tu acceptes la charte: respect, bienveillance, zéro spam.</p>
+        </form>
+    </section>
+
+    <section class="community-apps">
+        <h2>Jouer sur Chess.com</h2>
+        <div class="apps-grid">
+            <article class="app-card">
+                <h3>Android</h3>
+                <p>Télécharge l'application Chess.com sur Google Play.</p>
+                <a class="btn-secondary" href="https://play.google.com/store/search?q=chess.com&c=apps" target="_blank"
+                    rel="noopener noreferrer">Installer Android</a>
+            </article>
+
+            <article class="app-card">
+                <h3>iPhone</h3>
+                <p>Télécharge l'application Chess.com sur l'App Store.</p>
+                <a class="btn-secondary" href="https://apps.apple.com/us/search?term=chess.com" target="_blank"
+                    rel="noopener noreferrer">Installer iPhone</a>
+            </article>
+
+            <article class="app-card">
+                <h3>Ordinateur</h3>
+                <p>Joue directement sur le site web officiel.</p>
+                <a class="btn-secondary" href="https://www.chess.com/" target="_blank" rel="noopener noreferrer">Ouvrir
+                    Chess.com</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="community-ids">
+        <h2>Ajoutez-nous en amis</h2>
+        <div class="ids-grid">
+            <div class="id-card">
+                <h3>ID Chess.com 1</h3>
+                <p class="id-value">arena-2099</p>
+            </div>
+            <div class="id-card">
+                <h3>ID Chess.com 2</h3>
+                <p class="id-value">Snerokin</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="community-help">
+        <h2>Help / Assistance</h2>
+        <p>En cas de besoin, contactez-nous à travers ces liens vers WhatsApp:</p>
+        <div class="help-grid">
+            <a class="help-card" href="https://wa.me/221781925373" target="_blank" rel="noopener noreferrer">
+                <h3>Support 1</h3>
+                <p>+221 78 192 53 73</p>
+            </a>
+            <a class="help-card" href="https://wa.me/2290195998166" target="_blank" rel="noopener noreferrer">
+                <h3>Support 2</h3>
+                <p>+229 01 95 99 81 66</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="next-page-section">
+        <a href="competitions.html" class="btn-secondary next-page-btn">← Revenir en arrière</a>
+        <a href="index.html" class="btn-primary next-page-btn">Page suivante →</a>
+    </section>
+
+    <footer>
+        <p>Projet HTML/CSS 2026 | Chess World</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
