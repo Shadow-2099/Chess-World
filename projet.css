@@ -310,7 +310,7 @@ body.intro-lock {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("C:/Users/manso/OneDrive/Documents/LTIB126_DIARRA_Mouhamadoul Mansour_EDORH_Orens Kenneth G/Elements/img/assortment-chess-pieces-with-dramatic-scenery.jpg");
+    background-image: url("Elements/img/assortment-chess-pieces-with-dramatic-scenery.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -371,7 +371,7 @@ body.intro-lock {
 .page-hero {
     text-align: center;
     padding: 100px 20px 60px;
-    background: linear-gradient(120deg, rgba(8, 12, 24, 0.72), rgba(12, 18, 34, 0.72)), url("../Elements/img/assortment-chess-pieces-with-dramatic-scenery.jpg") center/cover no-repeat
+    background: linear-gradient(120deg, rgba(8, 12, 24, 0.72), rgba(12, 18, 34, 0.72)), url("Elements/img/assortment-chess-pieces-with-dramatic-scenery.jpg") center/cover no-repeat
 }
 
 .page-hero h1 {
@@ -2598,4 +2598,5 @@ chaturanga,
     object-fit: cover;
     display: block;
     transition: transform 0.45s ease;
+
 }
